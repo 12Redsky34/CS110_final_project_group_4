@@ -17,8 +17,13 @@ Repository for Final Project, CS110, Winter 2026
 
 # Overview (Draft)
 
-## What this project does
+## README Requirements include:
+- Project description and overview
+- Background research and DSJ context
+- Dependencies and installation instructions
+- Sample use cases and screenshots
+- Table of files and team contributions
+- Citations (including AI assistance)
 
-## Connections to DSJ
-
-## How to use it
+# Progress/Updates
+- (Cordelia 3/4/26) Program will specifically take user text input and provide a file output of the compiled/formatted information. May also include a display/tab that shows what the output will be before submission (transparency)
