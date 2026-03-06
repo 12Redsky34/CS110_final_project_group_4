@@ -50,5 +50,5 @@ Repository for Final Project, CS110, Winter 2026
 # Dependencies and Installation Instructions
 
 # Citations
-Rinne, Ulf. “Anonymous Job Applications and Hiring Discrimination.” IZA World of Labor, IZA - Institute of Labor Economics., 22 Jan. 2025, wol.iza.org/articles/anonymous-job-applications-and-hiring-discrimination. 
-Dixon, Rebecca. “Anti-Discrimination - National Employment Law Project - Fighting Workplace Discrimination in All Its Form.” National Employment Law Project, NELP, 22 Aug. 2025, www.nelp.org/explore-the-issues/anti-discrimination/. 
+- Rinne, Ulf. “Anonymous Job Applications and Hiring Discrimination.” IZA World of Labor, IZA - Institute of Labor Economics., 22 Jan. 2025, wol.iza.org/articles/anonymous-job-applications-and-hiring-discrimination. 
+- Dixon, Rebecca. “Anti-Discrimination - National Employment Law Project - Fighting Workplace Discrimination in All Its Form.” National Employment Law Project, NELP, 22 Aug. 2025, www.nelp.org/explore-the-issues/anti-discrimination/. 
