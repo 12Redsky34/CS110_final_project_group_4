@@ -30,13 +30,13 @@ Repository for Final Project, CS110, Winter 2026
 
 # Program Outline
 - Program will ask for various fields of input
--   Name
--   Address
--   Contact
--   Work Experience
--   Education
--   Skills
--   Additional Info(?)
+  - Name
+  - Address
+  - Contact
+  - Work Experience
+  - Education
+  - Skills
+  - Additional Info(?)
 - User will input any relevant text
 - User can press a "preview" button to see what the program will produce
 - User will "submit" information
