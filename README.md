@@ -41,3 +41,14 @@ Repository for Final Project, CS110, Winter 2026
 - User can press a "preview" button to see what the program will produce
 - User will "submit" information
 - Program will process submission and produce a file for "employer" review.
+
+# Project Description
+- The project is going to focus on the DEI and the work force and its goal to be inclusive to everyone, including the underrepresented groups. By doing so, this will include repositories of zip codes and area of these groups and asking the user for location and desired service as well as better inform them of potential targeted services. THe user will be asked to input their field of employment and have a list of key words for their resume. THe project will also suggest an anonymized application program, and reformat into a form for an employer to review. The protection of the underrepresented groups will be inforced with a zero tolerance policy of discrimination. The layout that we were shown looks to be a website of some kind, which can also be done with a good hand in html and css.
+# BG Research & DSJ Content
+- Using anonymous job applications is for the purpose of fighting hiring discrimination and it's gaining attention and interest. The results from Some European countries, Canada, and Austrilia shed light on the potential reduction of some discriminatory barriers to hiring minorities and other disadvantaged groups. Although, this program may reach its goal
+- In a good jobs economy, no one's future is determined by race, ethnicity, gender, sexual orientation, age disability, conviction record, family or immigration status, because one will still have an opportunity for education, skills, relationships, and experience to achieve a lifetime of employment mobility, rewarding work, and economic securty.
+# Dependencies and Installation Instructions
+
+# Citations
+Rinne, Ulf. “Anonymous Job Applications and Hiring Discrimination.” IZA World of Labor, IZA - Institute of Labor Economics., 22 Jan. 2025, wol.iza.org/articles/anonymous-job-applications-and-hiring-discrimination. 
+Dixon, Rebecca. “Anti-Discrimination - National Employment Law Project - Fighting Workplace Discrimination in All Its Form.” National Employment Law Project, NELP, 22 Aug. 2025, www.nelp.org/explore-the-issues/anti-discrimination/. 
