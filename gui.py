@@ -1,5 +1,6 @@
 # GUI for final group project
 import tkinter as tk
+from tkinter import messagebox
 
 # Main Window
 window = tk.Tk()
@@ -13,7 +14,7 @@ tk.Label(window, text="").grid(row=18, column=0) # Between contact and info
 
 
 # Heading/Title widget
-header = tk.Label(window, text="Resume Reformatting", font=("Arial", 25)).grid(row=0, column=1)
+header = tk.Label(window, text="Resume Reformatting", font=("Arial", 25)).grid(row=0, column=0, columnspan=3)
 
 
 # Name header
@@ -70,8 +71,12 @@ education = tk.Text(window, height=3, width=15).grid(row=21, column=1)
 skills = tk.Text(window, height=3, width=15).grid(row=22, column=1)
 
 
+# Set up preview command (alert box version)
+def preview_box():
+    messagebox.showinfo("Preview", "This will contain a preview of the output.")
+
 # Preview/Submit button
-tk.Button(window, text="Preview", width=10).grid(row=23, column=3)
+tk.Button(window, text="Preview", width=10, command=preview_box).grid(row=23, column=3)
 tk.Button(window, text="Submit", width=10).grid(row=24, column=3)
 
 
