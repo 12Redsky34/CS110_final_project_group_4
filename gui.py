@@ -12,13 +12,6 @@ tk.Label(window, text="Resume Reformatting", font=("Arial", 25)).grid(row=0, col
 form_pane = tk.Frame(window)
 form_pane.grid(row=1, column=0)
 
-#file write
-file = open(".txt", "w")
-file.write("")
-file.close("")
-
-update(.to_string())
-
 # Heading/Title widget
 header = tk.Label(window, text="Resume Reformatting", font=("Arial", 25)).grid(row=0, column=0, columnspan=3)
 
