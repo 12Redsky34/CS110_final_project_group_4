@@ -7,7 +7,7 @@ window = tk.Tk()
 window.title("Final Group Project (WIP)")
 
 # Heading/Title widget
-tk.Label(window, text="Resume Reformatting", font=("Arial", 25)).grid(row=0, column=1)
+tk.Label(window, text="Resume Reformatting", font=("Arial", 25)).grid(row=0, column=0)
 
 form_pane = tk.Frame(window)
 form_pane.grid(row=1, column=0)
