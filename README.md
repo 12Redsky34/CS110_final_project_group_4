@@ -21,8 +21,8 @@ Download the `gui.py` and `classes.py` files and save them to a convenient direc
 # Table of Files
 | File name | Purpose | Contributor |
 | ------    | ------  | ------      |
-| file1 | Functional code and GUI | Nate, Cordelia |
-| file2 | File output from the program | Nate, Cordelia |
+| gui.py | Graphical front end | Nate, Cordelia |
+| classes.py | Utility classes | Nate, Cordelia |
 | README | Readme file with all details about the program | Cordelia, Nate, Xindo|
 
 # Citations
