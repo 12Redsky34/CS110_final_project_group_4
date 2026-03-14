@@ -218,4 +218,4 @@ def demo():
     demo_applicant.print()
 
 # Runs the demo function
-demo()
+#demo()
