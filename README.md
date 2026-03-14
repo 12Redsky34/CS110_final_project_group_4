@@ -16,7 +16,7 @@ The user will input the following fields of information into the GUI: Name, Addr
 This program requires Python 3.14.3+ to enable use of .removesuffix() attribute. Everything else used comes with any standard python installation.
 
 # Configuration, Installation, Execution
-Download the main file and folder (or create the folder yourself as long as it is named exactly the same) and the program will work without any further installations. You do not need a text file in the folder, the program will create one if none are present.
+Download the `gui.py` and `classes.py` files and save them to a convenient directory. To run the program, simply execute the `gui.py` file. `classes.py` is just a dependency. Upon submission of applicant information, a new text file will be saved to the `submissions` subdirectory. The program will create this directory if it does not already exist.
 
 # Table of Files
 | File name | Purpose | Contributor |
