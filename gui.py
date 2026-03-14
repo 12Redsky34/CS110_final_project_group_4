@@ -1,6 +1,5 @@
 # GUI for final group project
 import tkinter as tk
-from tkinter import messagebox
 
 # Main Window
 window = tk.Tk()
@@ -12,8 +11,10 @@ tk.Label(window, text="Resume Reformatting", font=("Arial", 25)).grid(row=0, col
 form_pane = tk.Frame(window)
 form_pane.grid(row=1, column=0)
 
-# Heading/Title widget
-header = tk.Label(window, text="Resume Reformatting", font=("Arial", 25)).grid(row=0, column=0, columnspan=3)
+# Blank spaces for formatting
+tk.Label(form_pane, text="").grid(row=7, column=0) # Between name and address
+tk.Label(form_pane, text="").grid(row=13, column=0) # Between address and contact
+tk.Label(form_pane, text="").grid(row=18, column=0) # Between contact and info
 
 
 # Name header
@@ -95,11 +96,14 @@ education.grid(row=21, column=1)
 skills = tk.Text(form_pane, height=3, width=15)
 skills.grid(row=22, column=1)
 
+
 from tkinter import messagebox
 from classes import Applicant
 
+# The core object storing all the information from the input fields
 applicant = Applicant()
 
+# Populates the applicant object properties from the input fields
 def update_applicant():
     applicant.clear()
 
@@ -166,11 +170,32 @@ def update_applicant():
         applicant.add_skill(text)
 
 
+# Generates the preview of the applicant's information
 def preview():
     update_applicant()
     preview_text.configure(text=applicant.to_string())
 
+import os
+
+# Saves the applicant's information to a text file
+def save_applicant(data):
+    target_dir = 'submissions'
+
+    # Make the target directory if it does not exist
+    if not os.path.exists(target_dir):
+        os.mkdir(target_dir)
+    
+    applicant_number = len(os.listdir(target_dir)) + 1
+    file_name = f"{target_dir}/applicant-{applicant_number}.txt"
+
+    new_file = open(file_name, "w")
+    new_file.write(data)
+    new_file.close()
+
+# Submits the applicant's information
 def submit():
+    update_applicant()
+    save_applicant(applicant.to_string())
     messagebox.showinfo("Submission received", "Submitted")
 
 # Preview/Submit button
@@ -181,13 +206,9 @@ tk.Button(form_pane, text="Submit", width=10, command=submit).grid(row=24, colum
 preview_pane = tk.Frame(window)
 preview_pane.grid(row=1, column=2)
 
-# Set up preview command (alert box version)
-def preview_box():
-    messagebox.showinfo("Preview", "This will contain a preview of the output.")
-
-# Preview/Submit button
-tk.Button(window, text="Preview", width=10, command=preview_box).grid(row=23, column=3)
-tk.Button(window, text="Submit", width=10).grid(row=24, column=3)
+tk.Label(preview_pane, text="Preview").grid(row=0, column=0)
+preview_text = tk.Label(preview_pane, text="")
+preview_text.grid(row=1, column=0)
 
 
 # Establish event loop
